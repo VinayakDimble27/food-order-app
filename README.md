@@ -8,9 +8,9 @@ react functional components used
 First, run the development server:
 
 ```bash
-npm run dev
+npm start
 # or
-yarn dev
+yarn start
 ```
 
 
