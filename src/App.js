@@ -4,8 +4,10 @@ import Header from "./components/Layout/Header";
 import Meals from "./components/Meals/Meals";
 import CartProvider from "./store/CartProvider";
 
+
 function App() {
   const [showModal,setShowModal] =React.useState(false);
+
 
   const showModalHandler =()=>{
       setShowModal(true);

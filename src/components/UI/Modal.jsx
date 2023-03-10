@@ -1,11 +1,9 @@
 
 import React, { Fragment } from 'react';
 import classes from './Modal.module.css';
-import ReacDOM, { createPortal } from 'react-dom';
-import cartContext from '../../store/cart-context';
+import ReacDOM from 'react-dom';
 
 const BackDrops  =(props) =>{
-    const cartModalContext = React.useContext(cartContext);
 return <div className={classes.backdrop} onClick={props.onClick}></div>
 }
 
